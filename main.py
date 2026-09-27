@@ -4,9 +4,7 @@ from torchvision import datasets, transforms
 from torch import nn
 from pathlib import Path
 
-MODEL_PATH = Path('model_weights.pth')
-
-transforms.ColorJitter()
+MODEL_PATH = Path('weights/model_weights.pth')
 
 train_transform = transforms.Compose([
     transforms.RandomCrop(32, padding=4),
