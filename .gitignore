@@ -1,4 +1,6 @@
-.venv
-.vscode
-data
-weights
+.venv/
+.vscode/
+data/
+weights/
+__pycache__/
+*.pyc
